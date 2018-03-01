@@ -244,13 +244,13 @@ under the License.
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>https://nexus.private.non-prod.anz.local/repository/maven-public</url>
+          <url>http://dpe-nexus.cicd.svc.cluster.local:8081/repository/maven-public</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>https://nexus.private.non-prod.anz.local/repository/maven-public</url>
+          <url>http://dpe-nexus.cicd.svc.cluster.local:8081/repository/maven-public</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -260,13 +260,13 @@ under the License.
           </snapshots>
           <id>central</id>
           <name>plugins-release</name>
-          <url>https://nexus.private.non-prod.anz.local/repository/maven-public</url>
+          <url>http://dpe-nexus.cicd.svc.cluster.local:8081/repository/maven-public</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>plugins-snapshot</name>
-          <url>https://nexus.private.non-prod.anz.local/repository/maven-public</url>
+          <url>http://dpe-nexus.cicd.svc.cluster.local:8081/repository/maven-public</url>
         </pluginRepository>
       </pluginRepositories>
       <id>nexus</id>
